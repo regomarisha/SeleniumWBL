@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name = "Wallmart test SearchTest Suite " parallel="false">
+    <test name="SeachTest" parallel="false" >
+        <classes>
+            <class name="com.wbl.test.SearchTest"/>
+        </classes>
+    </test>
+</suite>

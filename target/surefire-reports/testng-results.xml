@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-05-01T22:26:19 PDT" name="Wallmart test Homepage Suite " finished-at="2019-05-01T22:26:31 PDT" duration-ms="12456">
+    <groups>
+    </groups>
+    <test started-at="2019-05-01T22:26:19 PDT" name="HomePageTest" finished-at="2019-05-01T22:26:31 PDT" duration-ms="12456">
+      <class name="com.wbl.test.HomePageTest">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:com.wbl.test.HomePageTest@6483f5ae]" started-at="2019-05-01T22:26:07 PDT" name="beforesuite" finished-at="2019-05-01T22:26:19 PDT" duration-ms="11784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="testHomepage()[pri:0, instance:com.wbl.test.HomePageTest@6483f5ae]" started-at="2019-05-01T22:26:19 PDT" name="testHomepage" finished-at="2019-05-01T22:26:20 PDT" duration-ms="870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomepage -->
+        <test-method signature="checkDropDown()[pri:0, instance:com.wbl.test.HomePageTest@6483f5ae]" started-at="2019-05-01T22:26:20 PDT" name="checkDropDown" finished-at="2019-05-01T22:26:20 PDT" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDropDown -->
+        <test-method signature="checkFooter()[pri:0, instance:com.wbl.test.HomePageTest@6483f5ae]" started-at="2019-05-01T22:26:20 PDT" name="checkFooter" finished-at="2019-05-01T22:26:20 PDT" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFooter -->
+        <test-method signature="checkTabs()[pri:0, instance:com.wbl.test.HomePageTest@6483f5ae]" started-at="2019-05-01T22:26:20 PDT" name="checkTabs" finished-at="2019-05-01T22:26:20 PDT" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTabs -->
+        <test-method signature="checkTitle()[pri:0, instance:com.wbl.test.HomePageTest@6483f5ae]" started-at="2019-05-01T22:26:20 PDT" name="checkTitle" finished-at="2019-05-01T22:26:20 PDT" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method signature="checkToolTipTextAndLink()[pri:0, instance:com.wbl.test.HomePageTest@6483f5ae]" started-at="2019-05-01T22:26:20 PDT" name="checkToolTipTextAndLink" finished-at="2019-05-01T22:26:20 PDT" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkToolTipTextAndLink -->
+        <test-method signature="feedBack()[pri:0, instance:com.wbl.test.HomePageTest@6483f5ae]" started-at="2019-05-01T22:26:20 PDT" name="feedBack" finished-at="2019-05-01T22:26:27 PDT" duration-ms="7175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feedBack -->
+        <test-method signature="footerLinks()[pri:0, instance:com.wbl.test.HomePageTest@6483f5ae]" started-at="2019-05-01T22:26:27 PDT" name="footerLinks" finished-at="2019-05-01T22:26:28 PDT" duration-ms="479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerLinks -->
+        <test-method signature="invalidSignup()[pri:0, instance:com.wbl.test.HomePageTest@6483f5ae]" started-at="2019-05-01T22:26:28 PDT" name="invalidSignup" finished-at="2019-05-01T22:26:29 PDT" duration-ms="1504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidSignup -->
+        <test-method signature="socialMediaIcons()[pri:0, instance:com.wbl.test.HomePageTest@6483f5ae]" started-at="2019-05-01T22:26:29 PDT" name="socialMediaIcons" finished-at="2019-05-01T22:26:30 PDT" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- socialMediaIcons -->
+        <test-method signature="validSignup()[pri:0, instance:com.wbl.test.HomePageTest@6483f5ae]" started-at="2019-05-01T22:26:30 PDT" name="validSignup" finished-at="2019-05-01T22:26:31 PDT" duration-ms="1537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validSignup -->
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:com.wbl.test.HomePageTest@6483f5ae]" started-at="2019-05-01T22:26:31 PDT" name="aftersuite" finished-at="2019-05-01T22:26:31 PDT" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- com.wbl.test.HomePageTest -->
+    </test> <!-- HomePageTest -->
+  </suite> <!-- Wallmart test Homepage Suite  -->
+  <suite started-at="2019-05-01T22:27:25 PDT" name="Final Suite" finished-at="2019-05-01T22:27:25 PDT" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Final Suite -->
+  <suite started-at="2019-05-01T22:26:44 PDT" name="Wallmart test SearchTest Suite " finished-at="2019-05-01T22:27:25 PDT" duration-ms="41031">
+    <groups>
+    </groups>
+    <test started-at="2019-05-01T22:26:44 PDT" name="SeachTest" finished-at="2019-05-01T22:27:25 PDT" duration-ms="41031">
+      <class name="com.wbl.test.SearchTest">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:com.wbl.test.SearchTest@130f889]" started-at="2019-05-01T22:26:31 PDT" name="beforesuite" finished-at="2019-05-01T22:26:44 PDT" duration-ms="12350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="testSearchFlow()[pri:0, instance:com.wbl.test.SearchTest@130f889]" started-at="2019-05-01T22:26:44 PDT" name="testSearchFlow" finished-at="2019-05-01T22:26:44 PDT" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFlow -->
+        <test-method signature="addToCardFirstElementAndValidate()[pri:0, instance:com.wbl.test.SearchTest@130f889]" started-at="2019-05-01T22:26:44 PDT" name="addToCardFirstElementAndValidate" finished-at="2019-05-01T22:27:09 PDT" duration-ms="25245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCardFirstElementAndValidate -->
+        <test-method signature="searchAndValidate()[pri:0, instance:com.wbl.test.SearchTest@130f889]" started-at="2019-05-01T22:27:09 PDT" name="searchAndValidate" finished-at="2019-05-01T22:27:25 PDT" duration-ms="15693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAndValidate -->
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:com.wbl.test.SearchTest@130f889]" started-at="2019-05-01T22:27:25 PDT" name="aftersuite" finished-at="2019-05-01T22:27:25 PDT" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- com.wbl.test.SearchTest -->
+    </test> <!-- SeachTest -->
+  </suite> <!-- Wallmart test SearchTest Suite  -->
+</testng-results>

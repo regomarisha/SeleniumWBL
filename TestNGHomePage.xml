@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name = "Wallmart test Homepage Suite " parallel="false">
+    <test name="HomePageTest" parallel="false" >
+        <classes>
+            <class name="com.wbl.test.HomePageTest"/>
+        </classes>
+    </test>
+</suite>

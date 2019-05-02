@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">3 suites</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Wallmart_test_Homepage_Suite_" class="navigator-link">
+              <span class="suite-name border-passed">Wallmart test Homepage Suite </span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Wallmart_test_Homepage_Suite_" class="navigator-link ">
+                    <span>C:\Users\Marisha\Desktop\WHiteBox\WBLAssingment\TestNGHomePage.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Wallmart_test_Homepage_Suite_" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Wallmart_test_Homepage_Suite_" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Wallmart_test_Homepage_Suite_" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Wallmart_test_Homepage_Suite_" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Wallmart_test_Homepage_Suite_" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Wallmart_test_Homepage_Suite_" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Wallmart_test_Homepage_Suite_" class="hide-methods passed suite-Wallmart_test_Homepage_Suite_"> (hide)</a> <!-- hide-methods passed suite-Wallmart_test_Homepage_Suite_ -->
+                      <a href="#" panel-name="suite-Wallmart_test_Homepage_Suite_" class="show-methods passed suite-Wallmart_test_Homepage_Suite_"> (show)</a> <!-- show-methods passed suite-Wallmart_test_Homepage_Suite_ -->
+                    </span>
+                    <div class="method-list-content passed suite-Wallmart_test_Homepage_Suite_">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Wallmart_test_Homepage_Suite_" title="com.wbl.test.HomePageTest" class="method navigator-link" hash-for-method="checkDropDown">checkDropDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Wallmart_test_Homepage_Suite_" title="com.wbl.test.HomePageTest" class="method navigator-link" hash-for-method="checkFooter">checkFooter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Wallmart_test_Homepage_Suite_" title="com.wbl.test.HomePageTest" class="method navigator-link" hash-for-method="checkTabs">checkTabs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Wallmart_test_Homepage_Suite_" title="com.wbl.test.HomePageTest" class="method navigator-link" hash-for-method="checkTitle">checkTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Wallmart_test_Homepage_Suite_" title="com.wbl.test.HomePageTest" class="method navigator-link" hash-for-method="checkToolTipTextAndLink">checkToolTipTextAndLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Wallmart_test_Homepage_Suite_" title="com.wbl.test.HomePageTest" class="method navigator-link" hash-for-method="feedBack">feedBack</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Wallmart_test_Homepage_Suite_" title="com.wbl.test.HomePageTest" class="method navigator-link" hash-for-method="footerLinks">footerLinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Wallmart_test_Homepage_Suite_" title="com.wbl.test.HomePageTest" class="method navigator-link" hash-for-method="invalidSignup">invalidSignup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Wallmart_test_Homepage_Suite_" title="com.wbl.test.HomePageTest" class="method navigator-link" hash-for-method="socialMediaIcons">socialMediaIcons</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Wallmart_test_Homepage_Suite_" title="com.wbl.test.HomePageTest" class="method navigator-link" hash-for-method="validSignup">validSignup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Wallmart_test_Homepage_Suite_ -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Wallmart_test_SearchTest_Suite_" class="navigator-link">
+              <span class="suite-name border-passed">Wallmart test SearchTest Suite </span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Wallmart_test_SearchTest_Suite_" class="navigator-link ">
+                    <span>C:\Users\Marisha\Desktop\WHiteBox\WBLAssingment\TestNGSeachPage.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Wallmart_test_SearchTest_Suite_" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Wallmart_test_SearchTest_Suite_" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Wallmart_test_SearchTest_Suite_" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Wallmart_test_SearchTest_Suite_" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Wallmart_test_SearchTest_Suite_" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Wallmart_test_SearchTest_Suite_" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Wallmart_test_SearchTest_Suite_" class="hide-methods passed suite-Wallmart_test_SearchTest_Suite_"> (hide)</a> <!-- hide-methods passed suite-Wallmart_test_SearchTest_Suite_ -->
+                      <a href="#" panel-name="suite-Wallmart_test_SearchTest_Suite_" class="show-methods passed suite-Wallmart_test_SearchTest_Suite_"> (show)</a> <!-- show-methods passed suite-Wallmart_test_SearchTest_Suite_ -->
+                    </span>
+                    <div class="method-list-content passed suite-Wallmart_test_SearchTest_Suite_">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Wallmart_test_SearchTest_Suite_" title="com.wbl.test.SearchTest" class="method navigator-link" hash-for-method="addToCardFirstElementAndValidate">addToCardFirstElementAndValidate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Wallmart_test_SearchTest_Suite_" title="com.wbl.test.SearchTest" class="method navigator-link" hash-for-method="searchAndValidate">searchAndValidate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Wallmart_test_SearchTest_Suite_ -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Wallmart_test_Homepage_Suite_" class="panel Wallmart_test_Homepage_Suite_">
+          <div class="suite-Wallmart_test_Homepage_Suite_-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.wbl.test.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkDropDown">
+                  </a> <!-- checkDropDown -->
+                  <span class="method-name">checkDropDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkFooter">
+                  </a> <!-- checkFooter -->
+                  <span class="method-name">checkFooter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkTabs">
+                  </a> <!-- checkTabs -->
+                  <span class="method-name">checkTabs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkTitle">
+                  </a> <!-- checkTitle -->
+                  <span class="method-name">checkTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkToolTipTextAndLink">
+                  </a> <!-- checkToolTipTextAndLink -->
+                  <span class="method-name">checkToolTipTextAndLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="feedBack">
+                  </a> <!-- feedBack -->
+                  <span class="method-name">feedBack</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="footerLinks">
+                  </a> <!-- footerLinks -->
+                  <span class="method-name">footerLinks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidSignup">
+                  </a> <!-- invalidSignup -->
+                  <span class="method-name">invalidSignup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="socialMediaIcons">
+                  </a> <!-- socialMediaIcons -->
+                  <span class="method-name">socialMediaIcons</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validSignup">
+                  </a> <!-- validSignup -->
+                  <span class="method-name">validSignup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Wallmart_test_Homepage_Suite_-class-passed -->
+        </div> <!-- panel Wallmart_test_Homepage_Suite_ -->
+        <div panel-name="suite-Final_Suite" class="panel Final_Suite">
+        </div> <!-- panel Final_Suite -->
+        <div panel-name="suite-Wallmart_test_SearchTest_Suite_" class="panel Wallmart_test_SearchTest_Suite_">
+          <div class="suite-Wallmart_test_SearchTest_Suite_-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.wbl.test.SearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToCardFirstElementAndValidate">
+                  </a> <!-- addToCardFirstElementAndValidate -->
+                  <span class="method-name">addToCardFirstElementAndValidate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchAndValidate">
+                  </a> <!-- searchAndValidate -->
+                  <span class="method-name">searchAndValidate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Wallmart_test_SearchTest_Suite_-class-passed -->
+        </div> <!-- panel Wallmart_test_SearchTest_Suite_ -->
+        <div panel-name="test-xml-Wallmart_test_Homepage_Suite_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Marisha\Desktop\WHiteBox\WBLAssingment\TestNGHomePage.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Wallmart test Homepage Suite &quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;HomePageTest&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.wbl.test.HomePageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- HomePageTest --&gt;
+&lt;/suite&gt; &lt;!-- Wallmart test Homepage Suite  --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Final_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Marisha\Desktop\WHiteBox\WBLAssingment\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Final Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;TestNGHomePage.xml&quot;/&gt;
+    &lt;suite-file path=&quot;TestNGSeachPage.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- Final Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Wallmart_test_SearchTest_Suite_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Marisha\Desktop\WHiteBox\WBLAssingment\TestNGSeachPage.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Wallmart test SearchTest Suite &quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SeachTest&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.wbl.test.SearchTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SeachTest --&gt;
+&lt;/suite&gt; &lt;!-- Wallmart test SearchTest Suite  --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Wallmart_test_Homepage_Suite_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Wallmart test Homepage Suite </span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">HomePageTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Final_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Final Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Wallmart_test_SearchTest_Suite_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Wallmart test SearchTest Suite </span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SeachTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Wallmart_test_Homepage_Suite_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Wallmart test Homepage Suite </span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Final_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Final Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Wallmart_test_SearchTest_Suite_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Wallmart test SearchTest Suite </span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Wallmart_test_Homepage_Suite_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Wallmart test Homepage Suite </span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Wallmart_test_Homepage_Suite_');
+function tableData_Wallmart_test_Homepage_Suite_() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'feedBack')
+data.setCell(0, 2, 'com.wbl.test.HomePageTest')
+data.setCell(0, 3, 7175);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validSignup')
+data.setCell(1, 2, 'com.wbl.test.HomePageTest')
+data.setCell(1, 3, 1537);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'invalidSignup')
+data.setCell(2, 2, 'com.wbl.test.HomePageTest')
+data.setCell(2, 3, 1504);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'footerLinks')
+data.setCell(3, 2, 'com.wbl.test.HomePageTest')
+data.setCell(3, 3, 479);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkDropDown')
+data.setCell(4, 2, 'com.wbl.test.HomePageTest')
+data.setCell(4, 3, 234);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'socialMediaIcons')
+data.setCell(5, 2, 'com.wbl.test.HomePageTest')
+data.setCell(5, 3, 202);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'checkTabs')
+data.setCell(6, 2, 'com.wbl.test.HomePageTest')
+data.setCell(6, 3, 149);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'checkFooter')
+data.setCell(7, 2, 'com.wbl.test.HomePageTest')
+data.setCell(7, 3, 132);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'checkToolTipTextAndLink')
+data.setCell(8, 2, 'com.wbl.test.HomePageTest')
+data.setCell(8, 3, 100);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkTitle')
+data.setCell(9, 2, 'com.wbl.test.HomePageTest')
+data.setCell(9, 3, 14);
+window.suiteTableData['Wallmart_test_Homepage_Suite_']= { tableData: data, tableDiv: 'times-div-Wallmart_test_Homepage_Suite_'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <div id="times-div-Wallmart_test_Homepage_Suite_">
+              </div> <!-- times-div-Wallmart_test_Homepage_Suite_ -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Final_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Final Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Final_Suite');
+function tableData_Final_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['Final_Suite']= { tableData: data, tableDiv: 'times-div-Final_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 0 ms</span>
+              <div id="times-div-Final_Suite">
+              </div> <!-- times-div-Final_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Wallmart_test_SearchTest_Suite_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Wallmart test SearchTest Suite </span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Wallmart_test_SearchTest_Suite_');
+function tableData_Wallmart_test_SearchTest_Suite_() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addToCardFirstElementAndValidate')
+data.setCell(0, 2, 'com.wbl.test.SearchTest')
+data.setCell(0, 3, 25245);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'searchAndValidate')
+data.setCell(1, 2, 'com.wbl.test.SearchTest')
+data.setCell(1, 3, 15693);
+window.suiteTableData['Wallmart_test_SearchTest_Suite_']= { tableData: data, tableDiv: 'times-div-Wallmart_test_SearchTest_Suite_'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 40 seconds</span>
+              <div id="times-div-Wallmart_test_SearchTest_Suite_">
+              </div> <!-- times-div-Wallmart_test_SearchTest_Suite_ -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Wallmart_test_Homepage_Suite_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Wallmart test Homepage Suite </span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Final_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Final Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Wallmart_test_SearchTest_Suite_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Wallmart test SearchTest Suite </span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Wallmart_test_Homepage_Suite_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Final_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Wallmart_test_SearchTest_Suite_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Wallmart_test_Homepage_Suite_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.wbl.test.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforesuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">testHomepage</span>
+                <span class="method-start">11811 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkDropDown</span>
+                <span class="method-start">12699 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkFooter</span>
+                <span class="method-start">12936 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkTabs</span>
+                <span class="method-start">13070 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkTitle</span>
+                <span class="method-start">13220 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkToolTipTextAndLink</span>
+                <span class="method-start">13235 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">feedBack</span>
+                <span class="method-start">13335 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">footerLinks</span>
+                <span class="method-start">20512 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invalidSignup</span>
+                <span class="method-start">20991 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">socialMediaIcons</span>
+                <span class="method-start">22497 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validSignup</span>
+                <span class="method-start">22699 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">aftersuite</span>
+                <span class="method-start">24290 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Final_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Wallmart_test_SearchTest_Suite_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.wbl.test.SearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforesuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">testSearchFlow</span>
+                <span class="method-start">12351 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addToCardFirstElementAndValidate</span>
+                <span class="method-start">12443 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchAndValidate</span>
+                <span class="method-start">37688 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">aftersuite</span>
+                <span class="method-start">53388 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
